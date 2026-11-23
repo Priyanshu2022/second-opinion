@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Second Opinion</title>
+<style>
+  body { font: 16px/1.65 Charter, Georgia, serif; color: #1a1815; background: #f7f5f0;
+         max-width: 38rem; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font: 600 26px/1.3 -apple-system, "Helvetica Neue", sans-serif; margin: 0 0 4px; }
+  h2 { font: 600 12px/1 -apple-system, sans-serif; text-transform: uppercase;
+       letter-spacing: .11em; color: #2a5a78; margin: 36px 0 10px;
+       padding-bottom: 6px; border-bottom: 1px solid #ddd7c9; }
+  p { margin: 0 0 12px; } ul { margin: 0 0 12px; padding-left: 20px; } li { margin-bottom: 6px; }
+  code { font: 13px ui-monospace, Menlo, monospace; background: #ebe6da;
+         padding: 1px 5px; border-radius: 3px; }
+  .date { font: 12px ui-monospace, Menlo, monospace; color: #6b6659; margin-bottom: 28px; }
+  a { color: #2a5a78; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #17161a; color: #e9e5db; }
+    code { background: #272630; } a { color: #8ab4d4; }
+    h2 { color: #8ab4d4; border-bottom-color: #33323a; } .date { color: #a09a8d; }
+  }
+</style>
+<h1>Privacy Policy — Second Opinion</h1>
+<p class="date">Last updated: 6 September 2026</p>
+<p><strong>Second Opinion collects nothing. There is no server.</strong></p>
+<h2>What the extension does</h2>
+<p>When you open a product page on Amazon or Flipkart, the extension reads the product title from that page, turns it into a search query, and asks Reddit's public endpoints what people have said about it. The results are filtered and displayed in a panel on the page.</p>
+<h2>Data sent off your device</h2>
+<p>Two destinations, both receiving the same thing: a search query derived from the product title you are already looking at.</p>
+<ul><li><strong>api.pullpush.io</strong> — a community archive of Reddit, used to find which threads</li><li><strong>reddit.com</strong> — the comments themselves are read from Reddit directly, so scores,</li></ul>
+<p>Both requests go from your own browser over your own connection. No account, no identifier, and nothing about you accompanies the query.</p>
+<p>There is no backend service behind this extension. The developer operates no server, receives no data, and cannot see what you browse or search.</p>
+<h2>Data stored on your device</h2>
+<p>Stored locally via <code>chrome.storage.local</code>, and never transmitted:</p>
+<ul><li>Search results, cached for 7 days so revisiting a product costs no requests.</li><li>Your settings (whether to check automatically, whether to auto-expand).</li></ul>
+<p>You can erase all of it at any time from the extension's options page ("Clear cached results"), or by removing the extension.</p>
+<h2>What is not collected</h2>
+<p>No analytics. No telemetry. No crash reporting. No advertising identifiers. No account, no sign-in, no email address. Nothing is sold, shared, or transferred to any third party, because nothing is collected in the first place.</p>
+<h2>Permissions, and why each is needed</h2>
+<ul><li><strong>Amazon and Flipkart product-page access</strong> — to read the product title and draw</li><li><strong>reddit.com access</strong> — to fetch public discussion threads and comments.</li><li><strong>api.pullpush.io access</strong> — to find which threads mention the product, because</li><li><strong>Storage</strong> — to hold the 7-day cache and your settings on this device.</li></ul>
+<h2>Reddit content</h2>
+<p>Comments are shown as written, with their subreddit, score, age, and a link back to the original thread. Content is never copied, mirrored, or republished anywhere outside your browser.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:priyanshupatwa45@gmail.com">priyanshupatwa45@gmail.com</a></p>
+</html>
